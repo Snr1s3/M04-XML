@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computerStore>
+    <computers>
+        
+        <computer pcType="laptop" idProduct="L1">
+            <name>Lenovo</name>
+            <price>1000</price>
+            <quantity>5</quantity>
+        </computer>
+        <computer pcType="laptop" idProduct="L2">
+            <name>Asus</name>
+            <price>2000</price>
+            <quantity>10</quantity>
+        </computer>
+        <computer pcType="laptop" idProduct="L3">
+            <name>HP</name>
+            <price>3000</price>
+            <quantity>15</quantity>
+        </computer>
+        <computer pcType="laptop" idProduct="L4">
+            <name>Dell</name>
+            <price>4000</price>
+            <quantity>20</quantity>
+        </computer>
+        <computer pcType="microcomputer" idProduct="MC5">
+            <name>arduino</name>
+            <price>100</price>
+            <quantity>10</quantity>
+        </computer>
+        <computer pcType="microcomputer" idProduct="MC6">
+            <name>raspberry</name>
+            <price>200</price>
+            <quantity>5</quantity>
+        </computer>        
+    </computers>
+    <components>
+        <component comType="cpu" idProduct="C7">
+            <name>i3</name>
+            <price>100</price>
+            <quantity>100</quantity>
+        </component>
+        <component comType="cpu"idProduct="C8" >
+            <name>i5</name>
+            <price>200</price>
+            <quantity>50</quantity>
+        </component>
+        <component comType="cpu"idProduct="C9">
+            <name>i7</name>
+            <price>300</price>
+            <quantity>20</quantity>
+        </component>
+        <component comType="cpu"idProduct="C10">
+            <name>i9</name>
+            <price>400</price>
+            <quantity>10</quantity>
+        </component>
+        <component comType="gpu"idProduct="G11">
+            <name>gtx 1050</name>
+            <price>100</price>
+            <quantity>100</quantity>
+        </component>
+        <component comType="gpu"idProduct="G12">
+            <name>gtx 1060</name>
+            <price>200</price>
+            <quantity>50</quantity>
+        </component>
+    </components>
+    <clients>
+        <client clientID="CL1" clientType="Regular">
+            <name>John</name>
+            <address>
+                <street>street</street>
+                <city>city</city>
+                <country>country</country>
+            </address>
+            <contact>
+                <phone>123456789</phone>
+                <email>mail</mail>
+            </contact>
+            <shoppingCart>
+                <date>23/11/2004</date>
+                <product>
+                    <componentBuyed comType="gpu" idProduct="G14">
+                    <quantity>1</quantity>
+                </product>
+                <product>
+                    <componentBuyed comType="microcomputer" idProduct="MC5">
+                    <quantity>2</quantity>
+                </product>
+            </shoppingCart>
+        </client>
+        <client clientID="CL2" cleintType="Premium">
+            <name>John</name>
+            <address>
+                <street>street</street>
+                <city>city</city>
+                <country>country</country>
+            </address>
+            <contact>
+                <phone>123456789</phone>
+                <email>mail</mail>
+            </contact>
+            <shoppingCart>
+                <date>01/08/2007</date>
+                <product>
+                    <componentBuyed comType="cpu" idProduct="C10">
+                    <quantity>10</quantity>
+                </product>
+                <product>
+                    <componentBuyed comType="gpu" idProduct="G11">
+                    <quantity>2</quantity>
+                </product>
+            </shoppingCart>
+        </client>
+    <clients>
+</computerStore>
+   
